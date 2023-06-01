@@ -1,0 +1,86 @@
+.center {
+  margin: 0 auto;
+}
+
+.demo-wrapper {
+  display: grid;
+  gap: 40px;
+  max-width: 90vw;
+  margin: 0 auto;
+}
+
+/* CSS for a container element which overlay the name on top of the container and enclose everything in a dashed line */
+.demo-container {
+  max-width: 90vw;
+  width: 100%;
+  margin: 0 auto;
+  border: 2px dashed red;
+  position: relative;
+  padding: 30px 20px;
+}
+
+/* CSS for the name element */
+.demo-label {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background-color: #FFFFFF70;
+  padding: 0 5px;
+  transform: translateX(-50%) translateY(-50%);
+  backdrop-filter: blur(5px);
+}
+
+.demo-label label {
+  font-size: 2rem;
+}
+
+.test-header {
+  margin-bottom: 20px;
+}
+
+/* CSS for a nice light blue select */
+select {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #333;
+  font-size: 16px;
+  height: 40px;
+  padding: 0 10px;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.body-center {
+  margin: 0 auto;
+  max-width: 90vw;
+  width: fit-content;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.gap {
+  gap: 20px;
+}
+
+.border {
+  border: 1px solid #ddd;
+}
